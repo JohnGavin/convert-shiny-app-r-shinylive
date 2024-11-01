@@ -30,7 +30,7 @@ jobs:
 
         # Install and pin the shinylive R package dependency
         - name: "Setup R dependency for Shinylive App export"
-          uses: r-lib/actions/setup-r-dependencies@v1
+          uses: r-lib/actions/setup-r-dependencies@v2
           with:
             packages:
               cran::shinylive
