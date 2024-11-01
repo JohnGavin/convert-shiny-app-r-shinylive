@@ -8,10 +8,10 @@ library(shinythemes)
 # Define UI
 ui <- fluidPage(
   theme = shinytheme("flatly"),
-  
+
   # App title
-  titlePanel("CSV File Uploader"),
-  
+  titlePanel("my CSV File Uploader"),
+
   # Sidebar layout with input and output definitions
   sidebarLayout(
     sidebarPanel(
@@ -21,7 +21,7 @@ ui <- fluidPage(
       checkboxInput("stringAsFactors", "Convert strings to factors", TRUE),
       tags$a("See source on GitHub!", href = "https://github.com/coatless-tutorials/convert-shiny-app-r-shinylive", target="_blank")
     ),
-    
+
     # Show CSV data
     mainPanel(
       tableOutput("contents")
@@ -31,7 +31,7 @@ ui <- fluidPage(
 
 # Define server logic
 server <- function(input, output) {
-  
+
   # Read CSV file
   data <- reactive({
     req(input$file)
@@ -40,7 +40,7 @@ server <- function(input, output) {
                    stringsAsFactors = input$stringAsFactors)
     return(df)
   })
-  
+
   # Show CSV data
   output$contents <- renderTable({
     data()
