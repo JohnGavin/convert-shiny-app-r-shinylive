@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DIF xmlns="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/" xmlns:dif="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/ http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/dif_v9.9.3.xsd">
+  <Entry_ID>AAS_4101_pygmy_blue_whale_SSSM</Entry_ID>
+  <Entry_Title>Switching state space model for pygmy blue whale satellite tag derived locations</Entry_Title>
+  <Data_Set_Citation>
+    <Dataset_Creator>Andrews-Goff, V., Double, M., Moller, L., Attard, C., Bilgmann, K., Jonsen, I. and Paton, D.</Dataset_Creator>
+    <Dataset_Title>Switching state space model for pygmy blue whale satellite tag derived locations</Dataset_Title>
+    <Dataset_Series_Name>CAASM Metadata</Dataset_Series_Name>
+    <Dataset_Release_Date>2020-10-01</Dataset_Release_Date>
+    <Dataset_Publisher>Australian Antarctic Data Centre</Dataset_Publisher>
+    <Version>1</Version>
+    <Other_Citation_Details>Unreleased data</Other_Citation_Details>
+    <Dataset_DOI>doi:10.26179/5e671120e52b4</Dataset_DOI>
+    <Online_Resource>https://data.aad.gov.au/metadata/records/AAS_4101_pygmy_blue_whale_SSSM</Online_Resource>
+  </Data_Set_Citation>
+  <Personnel>
+    <Role>INVESTIGATOR</Role>
+    <Role>TECHNICAL CONTACT</Role>
+    <Role>DIF AUTHOR</Role>
+    <First_Name>VIRGINIA</First_Name>
+    <Last_Name>ANDREWS-GOFF</Last_Name>
+    <Email>virginia.andrews-goff@aad.gov.au</Email>
+    <Phone>+61 3 6232 3122</Phone>
+    <Contact_Address>
+      <Address>Australian Antarctic Division</Address>
+      <Address>203 Channel Highway</Address>
+      <City>Kingston</City>
+      <Province_or_State>Tasmania</Province_or_State>
+      <Postal_Code>7050</Postal_Code>
+      <Country>Australia</Country>
+    </Contact_Address>
+  </Personnel>
+  <Personnel>
+    <Role>INVESTIGATOR</Role>
+    <First_Name>MIKE</First_Name>
+    <Last_Name>DOUBLE</Last_Name>
+    <Email>mike.double@aad.gov.au</Email>
+    <Phone>+61 3 6232 3407</Phone>
+    <Contact_Address>
+      <Address>Australian Antarctic Division</Address>
+      <Address>203 Channel Highway</Address>
+      <City>Kingston</City>
+      <Province_or_State>Tasmania</Province_or_State>
+      <Postal_Code>7050</Postal_Code>
+      <Country>Ausrtralia</Country>
+    </Contact_Address>
+  </Personnel>
+  <Personnel>
+    <Role>INVESTIGATOR</Role>
+    <First_Name>LUCIANA </First_Name>
+    <Last_Name>MOLLER</Last_Name>
+    <Email>luciana.moller@flinders.edu.au</Email>
+  </Personnel>
+  <Personnel>
+    <Role>INVESTIGATOR</Role>
+    <First_Name>CATHERINE </First_Name>
+    <Last_Name>ATTARD</Last_Name>
+  </Personnel>
+  <Personnel>
+    <Role>INVESTIGATOR</Role>
+    <First_Name>KERSTIN</First_Name>
+    <Last_Name>BILGMANN</Last_Name>
+  </Personnel>
+  <Personnel>
+    <Role>INVESTIGATOR</Role>
+    <First_Name>IAN</First_Name>
+    <Last_Name>JONSEN</Last_Name>
+    <Contact_Address>
+      <Address>Department of Biological Sciences</Address>
+      <Address>Macquarie University</Address>
+      <Address>Sydney</Address>
+      <Address>NSW 2109</Address>
+      <Address>Australia</Address>
+      <City>Sydney</City>
+      <Postal_Code>NSW 2109</Postal_Code>
+      <Country>Australia</Country>
+    </Contact_Address>
+  </Personnel>
+  <Personnel>
+    <Role>INVESTIGATOR</Role>
+    <First_Name>DAVE</First_Name>
+    <Last_Name>PATON</Last_Name>
+  </Personnel>
+  <Parameters>
+    <Category>EARTH SCIENCE</Category>
+    <Topic>BIOLOGICAL CLASSIFICATION</Topic>
+    <Term>ANIMALS/VERTEBRATES</Term>
+    <Variable_Level_1>MAMMALS</Variable_Level_1>
+    <Variable_Level_2>CETACEANS</Variable_Level_2>
+    <Variable_Level_3>BALEEN WHALES</Variable_Level_3>
+  </Parameters>
+  <Parameters>
+    <Category>EARTH SCIENCE</Category>
+    <Topic>BIOSPHERE</Topic>
+    <Term>ECOLOGICAL DYNAMICS</Term>
+    <Variable_Level_1>SPECIES/POPULATION INTERACTIONS</Variable_Level_1>
+    <Variable_Level_2>USE/FEEDING HABITATS</Variable_Level_2>
+  </Parameters>
+  <Parameters>
+    <Category>EARTH SCIENCE</Category>
+    <Topic>CLIMATE INDICATORS</Topic>
+    <Term>BIOSPHERIC INDICATORS</Term>
+    <Variable_Level_1>SPECIES MIGRATION</Variable_Level_1>
+  </Parameters>
+  <Parameters>
+    <Category>EARTH SCIENCE</Category>
+    <Topic>OCEANS</Topic>
+    <Term>OCEAN CIRCULATION</Term>
+    <Variable_Level_1>UPWELLING/DOWNWELLING</Variable_Level_1>
+  </Parameters>
+  <ISO_Topic_Category>OCEANS</ISO_Topic_Category>
+  <ISO_Topic_Category>BIOTA</ISO_Topic_Category>
+  <Keyword>SATELLITE TELEMETRY</Keyword>
+  <Sensor_Name>
+    <Short_Name>Computer</Short_Name>
+    <Long_Name>Computer</Long_Name>
+  </Sensor_Name>
+  <Source_Name>
+    <Short_Name>SATELLITES</Short_Name>
+  </Source_Name>
+  <Source_Name>
+    <Short_Name>MODELS</Short_Name>
+  </Source_Name>
+  <Temporal_Coverage>
+    <Start_Date>2015-01-07</Start_Date>
+    <Stop_Date>2016-03-16</Stop_Date>
+  </Temporal_Coverage>
+  <Data_Set_Progress>COMPLETE</Data_Set_Progress>
+  <Spatial_Coverage>
+    <Southernmost_Latitude>-45</Southernmost_Latitude>
+    <Northernmost_Latitude>-5</Northernmost_Latitude>
+    <Westernmost_Longitude>110</Westernmost_Longitude>
+    <Easternmost_Longitude>150</Easternmost_Longitude>
+  </Spatial_Coverage>
+  <Location>
+    <Location_Category>OCEAN</Location_Category>
+    <Location_Type>INDIAN OCEAN</Location_Type>
+    <Detailed_Location>EASTERN INDIAN OCEAN</Detailed_Location>
+  </Location>
+  <Location>
+    <Location_Category>GEOGRAPHIC REGION</Location_Category>
+    <Location_Type>POLAR</Location_Type>
+  </Location>
+  <Location>
+    <Location_Category>OCEAN</Location_Category>
+    <Location_Type>INDIAN OCEAN</Location_Type>
+    <Detailed_Location>BONNEY UPWELLING</Detailed_Location>
+  </Location>
+  <Location>
+    <Location_Category>OCEAN</Location_Category>
+    <Location_Type>INDIAN OCEAN</Location_Type>
+    <Detailed_Location>GREAT SOUTHERN AUSTRALIAN COASTAL UPWELLING SYSTEM</Detailed_Location>
+  </Location>
+  <Location>
+    <Location_Category>OCEAN</Location_Category>
+    <Location_Type>INDIAN OCEAN</Location_Type>
+  </Location>
+  <Access_Constraints>These data are not yet publicly available for download.</Access_Constraints>
+  <Use_Constraints>This data set conforms to the CCBY Attribution License (http://creativecommons.org/licenses/by/4.0/).
+
+Please follow instructions listed in the citation reference provided at http://data.aad.gov.au/aadc/metadata/citation.cfm?entry_id=AAS_4101_pygmy_blue_whale_SSSM when using these data.</Use_Constraints>
+  <Data_Set_Language>English</Data_Set_Language>
+  <Originating_Center>Australian Antarctic Division</Originating_Center>
+  <Data_Center>
+    <Data_Center_Name>
+      <Short_Name>AU/AADC</Short_Name>
+      <Long_Name>Australian Antarctic Data Centre, Australia</Long_Name>
+    </Data_Center_Name>
+    <Data_Center_URL>https://data.aad.gov.au</Data_Center_URL>
+    <Personnel>
+      <Role>DATA CENTER CONTACT</Role>
+      <First_Name>DATA OFFICER</First_Name>
+      <Last_Name>AADC</Last_Name>
+      <Email>metadata@aad.gov.au</Email>
+      <Phone>+61 3 6232 3244</Phone>
+      <Fax>+61 3 6232 3351</Fax>
+      <Contact_Address>
+        <Address>Australian Antarctic Division</Address>
+        <Address>203 Channel Highway</Address>
+        <City>Kingston</City>
+        <Province_or_State>Tasmania</Province_or_State>
+        <Postal_Code>7050</Postal_Code>
+        <Country>Australia</Country>
+      </Contact_Address>
+    </Personnel>
+  </Data_Center>
+  <Distribution>
+    <Distribution_Media>HTTP</Distribution_Media>
+    <Distribution_Size>196 MB</Distribution_Size>
+    <Distribution_Format>R</Distribution_Format>
+    <Fees>Free</Fees>
+  </Distribution>
+  <Reference>
+    <Full_Reference>Copy and paste your full publication or reference.</Full_Reference>
+    <Author>Moller LM, Attard CRM, Bilgmann K, Andrews-Goff V, Jonsen I, Paton D and Double MC</Author>
+    <Publication_Date>2020</Publication_Date>
+    <Title>Movements, occupancy and behaviour of pygmy blue whales (Balaenoptera musculus brevicauda) satellite tagged in the Great Southern Australian Coastal Upwelling System</Title>
+  </Reference>
+  <Summary>
+    <Abstract>An R data file containing a hierarchical switching state-space model of pygmy blue whale Argos-collected telemetry data using the bsam package (see Jonsen (2016). Joint estimation over multiple individuals improves behavioural state inference from animal movement data. Scientific Reports 6: 20625.) in R. The model estimated location states for each individual at regular 3-h time intervals, accounting for measurement error in the irregularly observed Argos surface locations; and estimated the behavioural state associated with each location. Satellite tags were deployed on pygmy blue whales located in the Bonney Upwelling region, SA, between 7 January and 16 March 2015.
+    
+File can be opened in R  (A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/ ) using the code: readRDS('bw_3h_ssm.RDS')</Abstract>
+    <Purpose>This dataset is described in:
+Moller LM, Attard CRM, Bilgmann K, Andrews-Goff V, Jonsen I, Paton D and Double MC submitted. Movements, occupancy and behaviour of pygmy blue whales (Balaenoptera musculus brevicauda) satellite tagged in the Great Southern Australian Coastal Upwelling System.</Purpose>
+  </Summary>
+  <Related_URL>
+    <URL_Content_Type>
+      <Type>GET DATA</Type>
+      <Subtype>DIRECT DOWNLOAD</Subtype>
+    </URL_Content_Type>
+    <URL>https://data.aad.gov.au/eds/5094/download</URL>
+    <Description>Download the dataset.</Description>
+  </Related_URL>
+  <Related_URL>
+    <URL_Content_Type>
+      <Type>PROJECT HOME PAGE</Type>
+    </URL_Content_Type>
+    <URL>https://secure3.aad.gov.au/proms/public/projects/report_project_public.cfm?project_no=AAS_4101</URL>
+    <Description>Public information for AAS project AAS_4101</Description>
+  </Related_URL>
+  <Related_URL>
+    <URL_Content_Type>
+      <Type>VIEW RELATED INFORMATION</Type>
+    </URL_Content_Type>
+    <URL>https://data.aad.gov.au/aadc/metadata/citation.cfm?entry_id=AAS_4101_pygmy_blue_whale_SSSM</URL>
+    <Description>Citation reference for this metadata record and dataset.</Description>
+  </Related_URL>
+  <IDN_Node>
+    <Short_Name>CEOS</Short_Name>
+  </IDN_Node>
+  <IDN_Node>
+    <Short_Name>AMD/AU</Short_Name>
+  </IDN_Node>
+  <IDN_Node>
+    <Short_Name>AMD</Short_Name>
+  </IDN_Node>
+  <Originating_Metadata_Node>AADC</Originating_Metadata_Node>
+  <Metadata_Name>CEOS IDN DIF</Metadata_Name>
+  <Metadata_Version>VERSION 9.9.3</Metadata_Version>
+  <DIF_Creation_Date>2020-03-10</DIF_Creation_Date>
+  <Last_DIF_Revision_Date>2020-03-10</Last_DIF_Revision_Date>
+  <DIF_Revision_History>2020-03-10 - record created by Virginia Andrews-Goff. </DIF_Revision_History>
+  <Extended_Metadata>
+    <Metadata>
+      <Group>gov.nasa.gsfc.gcmd</Group>
+      <Name>metadata.uuid</Name>
+      <Value>42d18072-461a-4bae-a098-4cfcd08ec1c7</Value>
+    </Metadata>
+    <Metadata>
+      <Group>gov.nasa.gsfc.gcmd</Group>
+      <Name>metadata.extraction_date</Name>
+      <Value>2020-03-10 15:06:23</Value>
+    </Metadata>
+    <Metadata>
+      <Group>gov.nasa.gsfc.gcmd</Group>
+      <Name>metadata.keyword_version</Name>
+      <Value>8.6</Value>
+    </Metadata>
+  </Extended_Metadata>
+</DIF>

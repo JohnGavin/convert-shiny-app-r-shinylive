@@ -1,0 +1,32 @@
+Title: Switching state space model for pygmy blue whale satellite tag derived locations
+
+Authors:
+  - VIRGINIA ANDREWS-GOFF (INVESTIGATOR, TECHNICAL CONTACT, DIF AUTHOR)
+  - MIKE DOUBLE (INVESTIGATOR)
+  - LUCIANA MOLLER (INVESTIGATOR)
+  - CATHERINE ATTARD (INVESTIGATOR)
+  - KERSTIN BILGMANN (INVESTIGATOR)
+  - IAN JONSEN (INVESTIGATOR)
+  - DAVE PATON (INVESTIGATOR)
+
+Owner: Commonwealth of Australia
+
+Citation: Andrews-Goff, V., Double, M., Moller, L., Attard, C., Bilgmann, K., Jonsen, I. and Paton, D. (2020) Switching state space model for pygmy blue whale satellite tag derived locations, Ver. 1,  <em>Australian Antarctic Data Centre</em> - <a href="http://dx.doi.org/doi:10.26179/5e671120e52b4">doi:10.26179/5e671120e52b4</a>, (Unreleased data)
+
+Revision Date: 2020-06-10
+
+Metadata URL: https://data.aad.gov.au/metadata/records/AAS_4101_pygmy_blue_whale_SSSM
+
+Dataset API URL: https://data.aad.gov.au/s3/api/bucket/datasets/embargoed/science/AAS_4101_pygmy_blue_whale_SSSM?export=json
+
+Abstract: An R data file containing a hierarchical switching state-space model of pygmy blue whale Argos-collected telemetry data using the bsam package (see Jonsen (2016). Joint estimation over multiple individuals improves behavioural state inference from animal movement data. Scientific Reports 6: 20625.) in R. The model estimated location states for each individual at regular 3-h time intervals, accounting for measurement error in the irregularly observed Argos surface locations; and estimated the behavioural state associated with each location. Satellite tags were deployed on pygmy blue whales located in the Bonney Upwelling region, SA, between 7 January and 16 March 2015.
+    
+File can be opened in R  (A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/ ) using the code: readRDS('bw_3h_ssm.RDS')
+
+Use Constraints: This data set conforms to the CCBY Attribution License (http://creativecommons.org/licenses/by/4.0/).
+
+Please follow instructions listed in the citation reference provided at http://data.aad.gov.au/aadc/metadata/citation.cfm?entry_id=AAS_4101_pygmy_blue_whale_SSSM when using these data.
+
+ID: 5094
+Metadata ID: AAS_4101_pygmy_blue_whale_SSSM
+UUID: 8a579667-3dc1-402c-90a8-04dbde0d5ce7
