@@ -1,5 +1,9 @@
 # cf https://github.com/quarto-dev/quarto-actions/blob/main/examples/example-01-basics.md
 # quarto create project my_website
+# push to git
+# quarto preview # local preview
+# quarto publish gh-pages
+
 
 on:
   push:
