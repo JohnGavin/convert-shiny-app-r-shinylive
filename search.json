@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "asdfwd",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n\nPhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.\n\n\n\nListening on http://127.0.0.1:4036"
   },
   {
     "objectID": "myapp/Readme.html",
